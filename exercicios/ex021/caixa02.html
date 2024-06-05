@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+
+        
+        body {
+            background-color: lightgray;
+            margin: 8px;
+        }
+
+        header {
+            background-color: #ffff;
+            padding: 10px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        nav {
+            background-color: rgb(138, 138, 138);
+            padding: 2px;
+            box-shadow: 3px 3px 5px #00000091;
+        }
+
+        nav > a {
+            color: #ffff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: lightgray;
+        }
+
+        #assuntos {
+            background-color: #8A8A8A;
+            padding: 5px;
+            color: white;
+        }
+
+        #assuntos > article > p {
+            margin: 0%;
+        }
+
+        article > h2 {
+            text-align: center;
+            margin: 0%;
+        }
+
+        article > p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-indent: 20px;
+            text-align: justify;
+        }
+
+        article > aside {
+            text-align: center;
+            background-color: #8A8A8A;
+            padding: 2px;
+            margin: 0%;
+            color: #fff;
+        }
+
+        aside > p {
+            margin: 0%;
+        }
+
+        main {
+            background-color: #ffff;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        main > #noticias {
+            padding-top: 10px;
+        }
+
+
+        footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 1px;
+            margin: 10px 0px 0px 0px;
+        }
+
+        footer > p {
+            margin: 0%;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+            <p>Jogos Politica Eletronicos</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium provident, repellat commodi nihil, suscipit magnam harum impedit accusamus voluptatem itaque, aut repellendus quaerat minus exercitationem temporibus maxime deleniti culpa. Repellendus?</p>
+                <aside>
+                    <p>Escrito por João Felipe</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Lucas</p>
+    </footer>
+</body>
+</html>

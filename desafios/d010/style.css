@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Droid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0%;
+}
+
+.foto {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.destaque {
+    color: #33775a;
+}
+
+.link {
+    color: #49aa80;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #71ffc2;
+    background-color: #49aa80;
+}
+
+.link:active {
+    background-color: #71ffc2;
+    color: #49aa80;
+}
+
+.link::after {
+    content: '🔗';
+}
+
+.video {
+    width: 70%;
+    margin: 0px auto;
+}
+
+body {
+    background-color: #00F094;
+}
+
+header {
+    background-image: linear-gradient(to top, #268A60, #1CBD7D);
+    text-align: center;
+    color: #fff;
+    box-shadow: 4px 5px 10px #00000041;
+}
+
+header > h1 {
+    padding: 30px 0px;
+    font: normal 300 2em "Oswald", sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+}
+
+header > p {
+    margin-bottom: 42px;
+    font: normal lighter 1em Arial, Helvetica,sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.459);
+}
+
+nav {
+    text-align: left;
+    padding: 7px;
+}
+
+nav > a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica,sans-serif;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > h1, h2 {
+    font-family: 'Droid', monospace;
+    color: #255641;
+}
+
+main > h1 {
+    margin: 10px 0px 20px 0px;
+}
+
+main > h2 {
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, #1cbd7d63, transparent);
+    padding: 5px; 
+    margin: 20px 0px;
+}
+
+main > p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+aside {
+    background-color: #00ff9d33;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+aside > h2 {
+    background-color: #2FA866;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+aside > p {
+    padding: 0px 10px 10px 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+aside > ul {
+    columns: 2;
+    margin: 0px 0px 10px 0px;
+}
+
+footer {
+    background-color: #255641;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+footer > a {
+    color: white;
+    padding: 1px;
+}
+
+footer > a:hover {
+    background-color: white;
+    color: #255641;
+    text-decoration: none;
+}
+
+footer > a:active {
+    color: #69f7b9;
+    background-color: #adadad;
+}
